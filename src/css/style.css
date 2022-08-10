@@ -1,0 +1,70 @@
+/**
+* ! Changing default styles of the browser
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+i {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+footer{
+  box-shadow: rgb(50 50 93 / 25%) 0px 0px 0px 0px inset, rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
+}
+.cart-amount{
+  position: absolute;
+  top: 3px;
+  border-radius: 6px;
+  width: fit-content;    right: 14px;
+}
+/* .card-holder :hover{
+  transform: scale(1.2) ;
+} */
+.love-icon{
+  position: absolute;
+  width: fit-content;
+  padding:5px
+}
+.red{
+  color:#e91e63
+;
+}
+.cart-container{
+  padding-right: 10px;
+}
+.yellow{
+  color:#ffc107
+}
+/* html {
+  overflow: hidden !important;
+  height: 100% !important;
+}
+
+body {
+  overflow: auto;
+  height: 100% !important;
+} */
+
+.modal {
+  overflow-y: auto !important;
+}
+
+.modal-open {
+ overflow: auto !important; 
+}
+
+.modal-open[style]{
+  padding-right: 0 !important;
+}
